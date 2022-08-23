@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "about.css",
+	"sources": [
+		"../../../scss/layout/about.scss"
+	],
+	"sourcesContent": [
+		".company {\n  margin-bottom: 6rem;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,QAAQ,AAAC,CACP,aAAa,CAAE,IAAI,CACpB"
+}

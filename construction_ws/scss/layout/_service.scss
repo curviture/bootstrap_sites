@@ -1,0 +1,12 @@
+.services {
+  &-img {
+    height: 31rem;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 992px) {
+    &-tab-link:not(.active) &-tab-text {
+      display: none;
+    }
+  }
+}

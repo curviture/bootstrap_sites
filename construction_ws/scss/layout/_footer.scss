@@ -1,0 +1,35 @@
+.footer {
+  background-color: #1f373d;
+  &-header {
+    border-bottom: 1px solid #758594;
+  }
+  &-col {
+    &-title {
+      color: #919eb1;
+    }
+  }
+  a {
+    color: $white !important;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+  }
+
+  &-cta {
+    color: $gray-500;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-right: 0;
+    border-right: 0 solid #000;
+
+    &-icon {
+      line-height: $input-height-lg;
+      padding-right: 1rem;
+      padding-left: 1rem;
+      text-align: center;
+    }
+
+    &:hover &-icon {
+      background-color: $primary;
+    }
+  }
+}

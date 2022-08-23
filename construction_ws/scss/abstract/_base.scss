@@ -1,0 +1,18 @@
+body {
+  padding-top: 0;
+  line-height: 1;
+  min-width: 480px;
+}
+
+.no-gutters {
+  margin-left: 0;
+  margin-right: 0;
+  &.row > .col &.row > [class="^col"] {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.scrolling-x-wrapper {
+  overflow-x: scroll;
+}

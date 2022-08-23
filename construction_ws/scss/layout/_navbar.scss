@@ -1,0 +1,33 @@
+.navbar {
+  transition: all ease-in-out 0.1s;
+  &-container {
+    &.scrolled {
+      .navbar {
+        height: $input-height;
+        z-index: 1000;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+      }
+    }
+  }
+
+  .navbar-nav {
+    margin-right: 6.25rem;
+
+    .nav-link {
+      // font-size: 0.75rem;
+    }
+  }
+  &-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: lowercase;
+  }
+
+  @media screen and (max-width: 992px) {
+    & {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+  }
+}

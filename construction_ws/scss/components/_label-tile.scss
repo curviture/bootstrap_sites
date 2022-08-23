@@ -1,0 +1,36 @@
+.label-tile {
+  height: $input-height-lg;
+  line-height: $input-height-lg;
+  font-size: 1rem;
+  color: $slate;
+  font-weight: $font-weight-bold;
+  background-color: $primary;
+  &-lg {
+  }
+  &--sd {
+    display: inline-block;
+    text-align: center;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+  &--showcase {
+    transform: translateY(-50%);
+  }
+  &--cta {
+    cursor: pointer;
+
+    &:hover {
+      background-color: lighten($primary, 5%) !important;
+      transform: translateY(-2%);
+      box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.6);
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    line-height: $input-height;
+    height: $input-height;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

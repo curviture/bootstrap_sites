@@ -1,0 +1,40 @@
+.jumbotron {
+  padding-top: 9.75rem;
+
+  &-wrapper {
+    background: url("../images/bg-1.jpg") no-repeat right center;
+    background-size: 100% auto;
+    background-position: 20vw center;
+    margin-bottom: 1rem;
+  }
+}
+
+.jumbotron-title {
+  margin-bottom: 2.8125rem;
+}
+
+.jumbotron-body {
+  margin-bottom: 12.625rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .jumbotron {
+    &-wrapper {
+      background-position: 25vw center;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .jumbotron {
+    padding-top: 6rem;
+
+    &-title {
+      margin-bottom: 1rem;
+    }
+
+    &-body {
+      margin-bottom: 6rem;
+    }
+  }
+}

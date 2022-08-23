@@ -1,0 +1,18 @@
+.showcase {
+  &-item {
+    &--content {
+      &-right {
+        text-align: right;
+      }
+    }
+  }
+  &-cta {
+    transform: translateY(-150%) translateX(-100%);
+  }
+
+  @media screen and (max-width: 992px) {
+    &-cta {
+      transform: none;
+    }
+  }
+}

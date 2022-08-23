@@ -1,0 +1,49 @@
+.gallery {
+  .card-img-top {
+    height: 23rem;
+  }
+  .card-title {
+    font-size: 0.75rem;
+  }
+  .card-body {
+    padding-bottom: 0;
+  }
+
+  .card-footer {
+    border-top: 0 solid #000;
+    background-color: $white;
+  }
+
+  .card-text-price {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .card-text-info {
+    font-size: 0.8rem;
+    color: $gray-500;
+  }
+
+  .icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.8rem;
+    background-position: center center;
+    background-size: 0.8rem 0.8rem;
+    height: 0.8rem;
+
+    &--shower {
+      background-image: url("../images/icons/shower.png");
+    }
+    &--sofa {
+      background-image: url("../images/icons/sofa.png");
+    }
+  }
+
+  &-cta {
+    background-color: $white;
+    &:hover {
+      background-color: $primary;
+    }
+  }
+}
