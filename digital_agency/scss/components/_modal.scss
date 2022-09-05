@@ -1,0 +1,23 @@
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: $rainbow-gradient-alpha;
+  &.shown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+  }
+  &__content {
+    display: block;
+    inset: 0;
+    z-index: 2;
+    padding: 3rem;
+    background-color: rgba(#fff, 0.95);
+    border-radius: $border-radius;
+  }
+}

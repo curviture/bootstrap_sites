@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: var(--wrapper-width);
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 7rem;
+  &__logo-box {
+    // height: 2rem;
+    // width: auto;
+  }
+  &__nav__trigger {
+  }
+  @include breakmax($br-tb) {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}

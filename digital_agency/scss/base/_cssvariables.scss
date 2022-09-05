@@ -1,0 +1,18 @@
+:root {
+  --wrapper-width: 110.5rem;
+  --base-font-size: 62.5%;
+
+  @include breakmax($br-lg) {
+    --wrapper-width: 85rem;
+    --base-font-size: 50%;
+  }
+  @include breakmax($br-ds) {
+    --wrapper-width: 68rem;
+  }
+  @include breakmax($br-tb) {
+    --wrapper-width: 48rem;
+  }
+  @include breakmax($br-mb) {
+    --wrapper-width: 38rem;
+  }
+}

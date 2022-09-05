@@ -1,0 +1,11 @@
+.u-bg {
+  &--yellow {
+    background-color: $color-yellow;
+  }
+  &--red {
+    background-color: $color-red;
+  }
+  &--cyan {
+    background-color: $color-cyan;
+  }
+}

@@ -1,0 +1,46 @@
+$color-yellow: #f0bb1f;
+$color-red: #f15a2b;
+$color-cyan: #006380;
+
+$color-dark: #1e1c31;
+$color-white: #fff;
+$color-primary: #4270ec;
+$color-highlight: $color-primary;
+
+//rainbow colors
+$rainbow-1: #527ff6;
+$rainbow-2: #e16dd9;
+$rainbow-3: #ffcc70;
+
+$text-dark: $color-dark;
+$text-white: $color-white;
+
+$link-hover-color: $color-highlight;
+
+$nav-link-hover-color: $link-hover-color;
+
+$rainbow-gradient: linear-gradient(
+  79.42deg,
+  $rainbow-1 15.73%,
+  $rainbow-2 79.76%,
+  $rainbow-3 112.35%
+);
+
+$rainbow-gradient-alpha: linear-gradient(
+  80deg,
+  rgba($rainbow-1, 0.7) 15%,
+  rgba($rainbow-2, 0.7) 75%,
+  rgba($rainbow-3, 0.7) 125%
+);
+
+//border radius
+$border-radius: 1.8rem;
+$border-radius-1: 1.7rem;
+$border-radius-2: 1.5rem;
+
+//breakpoints
+$br-lg: 1200px;
+$br-ds: 900px;
+$br-tb: 700px;
+$br-mb: 500px;
+$br-xs: 400px;

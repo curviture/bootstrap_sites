@@ -1,0 +1,82 @@
+.footer {
+  width: var(--wrapper-width);
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: start;
+  position: relative;
+
+  &__fancy-background {
+    width: 30rem;
+    height: 30rem;
+  }
+
+  &__col {
+    flex: 0 1 24%;
+  }
+
+  &__header {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #222136;
+    text-transform: capitalize;
+    font-weight: 500;
+
+    & ~ & {
+      margin-top: 2rem;
+    }
+  }
+  &__text {
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    color: rgba(#222136, 70%);
+
+    &--small {
+      line-height: 2.4rem;
+    }
+  }
+  &__icon {
+    width: 2rem;
+    height: 2rem;
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+    &-box {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: start;
+      align-items: center;
+      margin-top: 2rem;
+    }
+    &__link {
+      display: block;
+    }
+    &__img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  @include breakmax($br-lg) {
+    &__col {
+      &--icon {
+        flex-shrink: 1;
+        flex-basis: 15%;
+      }
+    }
+  }
+  @include breakmax($br-tb) {
+    flex-wrap: wrap;
+    &__col {
+      flex-basis: 50%;
+      margin-bottom: 3rem;
+      &:nth-child(odd) {
+        padding-left: 2rem;
+      }
+      &:nth-child(even) {
+        padding-right: 2rem;
+      }
+    }
+  }
+}

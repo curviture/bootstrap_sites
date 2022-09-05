@@ -1,0 +1,28 @@
+.post {
+  &__graphics {
+    height: 17.4rem;
+    margin-bottom: 2rem;
+  }
+  &__img {
+    width: 100%;
+    height: 100%;
+    border-radius: $border-radius;
+  }
+  &__info {
+    margin-bottom: 1rem;
+    color: rgba($color-dark, 60%);
+  }
+  &__author {
+    padding-left: 2rem;
+  }
+  &__text {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+  &__cta {
+    color: $color-primary;
+    text-decoration: none;
+    font-size: 1.4rem;
+  }
+}

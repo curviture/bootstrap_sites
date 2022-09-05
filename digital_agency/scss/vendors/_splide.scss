@@ -1,0 +1,14 @@
+.splide {
+  &__slide {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  &__pagination {
+    bottom: -3rem;
+
+    &__page {
+      background: $color-highlight;
+    }
+  }
+}

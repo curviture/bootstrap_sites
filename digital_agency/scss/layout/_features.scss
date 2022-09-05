@@ -1,0 +1,26 @@
+.features {
+  width: var(--wrapper-width);
+  margin: 0 auto 8rem;
+
+  &__box {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+
+    @include breakmax($br-tb) {
+      flex-flow: column nowrap;
+    }
+  }
+
+  &__item {
+    flex-basis: 33%;
+    display: flex;
+    flex-flow: row nowrap;
+
+    @include breakmax($br-tb) {
+      &:not(:last-child) {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}

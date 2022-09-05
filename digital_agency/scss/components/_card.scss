@@ -1,0 +1,19 @@
+.card {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: start;
+
+  &__body {
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
+
+  &__heading {
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+
+  &__text {
+    line-height: 2.2rem;
+  }
+}

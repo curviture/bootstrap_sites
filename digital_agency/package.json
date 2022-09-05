@@ -1,0 +1,23 @@
+{
+  "name": "digital_agency",
+  "version": "1.0.0",
+  "description": "Digital agency website template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass scss/main.scss css/main.css -watch"
+  },
+  "keywords": [
+    "website",
+    "template",
+    "frontend"
+  ],
+  "author": "Gevorg Ghazaryan",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "node-sass": "^7.0.1",
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0"
+  }
+}

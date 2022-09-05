@@ -1,0 +1,35 @@
+.btn {
+  text-transform: capitalize;
+  background-color: $color-white;
+  font-size: 1.4rem;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+  padding-left: 3.7rem;
+  padding-right: 3.7rem;
+  border-radius: $border-radius-2;
+  cursor: pointer;
+  white-space: nowrap;
+
+  &--primary {
+    background-color: $color-primary;
+    color: $color-white;
+    background-image: $rainbow-gradient;
+    background-size: 100% 0%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background-size: 200% 100%;
+    }
+  }
+
+  &:hover {
+    background-color: $color-primary;
+    color: $color-white;
+  }
+
+  &--block {
+    width: 100%;
+  }
+}

@@ -1,0 +1,36 @@
+.title {
+  text-align: left;
+  &__sub {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+    letter-spacing: 5%;
+  }
+  &__main {
+    font-size: 6rem;
+    line-height: 7.6rem;
+    text-transform: capitalize;
+    color: $text-dark;
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+  &--md &__main {
+    font-size: 4.8rem;
+    line-height: 6.1rem;
+  }
+
+  @include breakmax($br-lg) {
+    &__main {
+      font-size: 4rem;
+      line-height: 5rem;
+    }
+
+    &--md &__main {
+      font-size: 3.2rem;
+      line-height: 4.6rem;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+html {
+  font-size: var(--base-font-size);
+  box-sizing: border-box;
+  min-width: 320px;
+}
+
+body {
+  font-size: 1rem;
+  padding-bottom: 15rem;
+  box-sizing: inherit;
+
+  @include breakmax($br-ds) {
+    padding-bottom: 9rem;
+  }
+  &.no--overflow {
+    overflow-y: hidden;
+  }
+}

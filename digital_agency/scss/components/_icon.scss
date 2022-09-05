@@ -1,0 +1,21 @@
+.icon {
+  &--bg {
+    border-radius: $border-radius-1;
+  }
+  &--lg {
+    width: 7rem;
+    height: 7rem;
+    line-height: 7rem;
+    text-align: center;
+    vertical-align: middle;
+
+    svg {
+      width: 3rem;
+      height: 3rem;
+      display: inline-block;
+      line-height: 7rem;
+      vertical-align: middle;
+      fill: white;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.hero {
+  display: flex;
+  flex-flow: row nowrap;
+  width: var(--wrapper-width);
+  margin: 0 auto 6rem;
+  align-items: center;
+  position: relative;
+  z-index: -1;
+
+  & > * {
+    flex: 0 0 50%;
+  }
+  &__text-content {
+    padding-top: 7.2rem;
+  }
+  &__slogan {
+    margin-bottom: 2rem;
+  }
+  &__title {
+    margin-bottom: 6rem;
+  }
+
+  &__text {
+    margin-bottom: 6.2rem;
+  }
+  &__cta {
+  }
+
+  &__img {
+    height: 55rem;
+    width: 100%;
+    border-radius: $border-radius;
+  }
+
+  &__image-content {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-shrink: 1;
+    padding-left: 4rem;
+
+    &__image {
+      // flex-basis: 50% !important;
+      &--main {
+        margin-right: 3rem;
+        flex: 4 1 0;
+      }
+
+      &--secondary {
+        flex: 1 2 0;
+      }
+    }
+  }
+}
